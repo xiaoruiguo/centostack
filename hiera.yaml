@@ -1,0 +1,10 @@
+---
+version: 4
+datadir: hieradata
+hierarchy: 
+  - name: "Hostname"
+    backend: yaml
+    path: "hostname/%{facter.hostname}
+
+  - name: "common"
+    backend: yaml
