@@ -6,7 +6,7 @@ hierarchy:
     backend: yaml
     path: "hostname/%{facter.hostname}
 
-  - name: "FQDN"
+  - name: "Fqdn"
     backend: yaml
     path: "fqdn/%{facter.fqdn}
 
