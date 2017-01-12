@@ -4,11 +4,11 @@ datadir: hieradata
 hierarchy: 
   - name: "Hostname"
     backend: yaml
-    path: "hostname/%{facter.hostname}
+    path: "hostname/%{facter.hostname}"
 
   - name: "Fqdn"
     backend: yaml
-    path: "fqdn/%{facter.fqdn}
+    path: "fqdn/%{facter.fqdn}"
 
   - name: "common"
     backend: yaml
