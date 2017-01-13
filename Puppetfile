@@ -12,4 +12,4 @@ mod 'puppetlabs-mysql', '3.10.0'
 mod 'puppetlabs-apt', '2.3.0'
 mod 'puppetlabs-rabbitmq', '5.6.0'
 mod 'ceph',
-  :git    =>     'https://github.com/openstack/puppet-ceph.git'
+  :git    =>     'https://github.com/openstack/puppet-ceph'
