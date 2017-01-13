@@ -11,5 +11,7 @@ mod 'puppet-staging', '1.0.7'
 mod 'puppetlabs-mysql', '3.10.0'
 mod 'puppetlabs-apt', '2.3.0'
 mod 'puppetlabs-rabbitmq', '5.6.0'
+mod 'puppetlabs-inifile', '1.6.0'
+mod 'duritong-sysctl', '0.0.11'
 mod 'ceph',
   :git    =>     'https://github.com/openstack/puppet-ceph'
