@@ -8,7 +8,7 @@ hierarchy:
 
   - name: "Fqdn"
     backend: yaml
-    path: "fqdn/%{facter.fqdn}"
+    path: "nodes/%{facter.fqdn}"
 
   - name: "common"
     backend: yaml
