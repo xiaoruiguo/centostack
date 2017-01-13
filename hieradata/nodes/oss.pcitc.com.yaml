@@ -1,0 +1,12 @@
+---
+classes:
+  - 'ntp'
+
+ntp::servers:
+  - 's1a.time.edu.cn'
+  - 's2a.time.edu.cn'
+  - 's3a.time.edu.cn'
+ntp::restrict:
+  - 'default kod nomodify notrap nopeer noquery'
+  - '127.0.0.1'
+  - '10.238.40.0 mask 255.255.255.192 nomodify notrap' 

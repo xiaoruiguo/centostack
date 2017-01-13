@@ -1,0 +1,10 @@
+---
+classes:
+  - 'ntp'
+
+ntp::servers:
+  - 'oss.pcitc.com'
+  - 'oss1.pcitc.com'
+  - 'oss2.pcitc.com'
+ntp::restrict:
+  - 'default kod nomodify notrap nopeer noquery'
