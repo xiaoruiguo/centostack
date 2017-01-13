@@ -16,5 +16,7 @@ mod 'duritong-sysctl', '0.0.11'
 mod 'puppetlabs-xinetd', '2.0.0'
 mod 'puppetlabs-firewall', '1.8.2'
 mod 'michaeltchapman-galera', '0.6.0'
+mod 'camptocamp-kmod', '2.1.0'
+mod 'openstack-vswitch', '6.0.0'
 mod 'ceph',
   :git    =>     'https://github.com/openstack/puppet-ceph'
