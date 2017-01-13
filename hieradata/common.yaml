@@ -1,7 +1,4 @@
 ---
-classes:
-  - 'ntp'
-
 ntp::servers:
   - 's1a.time.edu.cn'
   - 's2a.time.edu.cn'

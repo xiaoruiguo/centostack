@@ -3,6 +3,8 @@ classes:
   - 'ntp'
 
 ntp::servers:
+  - 'oss.pcitc.com'
+  - 'oss1.pcitc.com'
   - 's1a.time.edu.cn'
   - 's2a.time.edu.cn'
   - 's3a.time.edu.cn'
