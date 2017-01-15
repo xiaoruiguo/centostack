@@ -17,7 +17,7 @@ classes:
 # Rabbitmq Cluster.
 rabbitmq::config_cluster: true
 rabbitmq::cluster_nodes:
-#  - oss.pcitc.com
+  - oss.pcitc.com
   - oss2.pcitc.com
   - oss2.pcitc.com
 rabbitmq::cluster_node_type: 'ram'
