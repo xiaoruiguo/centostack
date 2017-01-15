@@ -14,6 +14,8 @@ ntp::restrict:
 classes:
   - 'rabbitmq'
 
+rabbitmq_plugin: 'autocluster'
+
 # Rabbitmq Cluster.
 rabbitmq::config_cluster: true
 rabbitmq::cluster_nodes:
