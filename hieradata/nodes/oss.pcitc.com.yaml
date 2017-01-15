@@ -14,17 +14,21 @@ ntp::restrict:
 classes:
   - 'rabbitmq'
 
-rabbitmq_plugin: 
-  - 'rabbitmq_management'
-  - 'rabbitmq_management_agent'
+#rabbitmq_plugin: 
+#  - 'rabbitmq_management'
+#  - 'rabbitmq_management_agent'
 #  - 'autocluster'
 
 # Rabbitmq Cluster.
 rabbitmq::config_cluster: true
-rabbitmq::cluster_nodes:
+rabbitmq::cluster_nodes: 
   - oss.pcitc.com
   - oss2.pcitc.com
   - oss2.pcitc.com
 rabbitmq::cluster_node_type: 'ram'
 rabbitmq::erlang_cookie: 'A_SECRET_COOKIE_STRING'
 rabbitmq::wipe_db_on_cookie_change: true
+
+
+classes:
+  - 'mysql'

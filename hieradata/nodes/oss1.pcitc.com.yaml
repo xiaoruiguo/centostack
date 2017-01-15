@@ -24,3 +24,6 @@ rabbitmq::cluster_nodes:
 rabbitmq::cluster_node_type: 'ram'
 rabbitmq::erlang_cookie: 'A_SECRET_COOKIE_STRING'
 rabbitmq::wipe_db_on_cookie_change: true
+
+classes:
+  - 'mysql'
