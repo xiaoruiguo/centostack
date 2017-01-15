@@ -19,7 +19,7 @@ classes:
 rabbitmq::config_cluster: true
 rabbitmq::cluster_nodes:
   - oss.pcitc.com
-  - oss1.pcitc.com
+#  - oss1.pcitc.com
   - oss2.pcitc.com
 rabbitmq::cluster_node_type: 'ram'
 rabbitmq::erlang_cookie: 'A_SECRET_COOKIE_STRING'
