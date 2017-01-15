@@ -12,3 +12,6 @@ ntp::restrict:
   - 'default kod nomodify notrap nopeer noquery'
   - '127.0.0.1'
   - '10.238.40.0 mask 255.255.255.192 nomodify notrap' 
+
+classes:
+  - 'rabbitmq'

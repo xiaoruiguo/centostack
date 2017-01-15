@@ -10,3 +10,15 @@ ntp::restrict:
   - 'default kod nomodify notrap nopeer noquery'
   - '127.0.0.1'
   - '10.238.40.0 mask 255.255.255.192 nomodify notrap' 
+
+classes:
+  - 'rabbitmq'
+
+#rabbitmq::config_cluster: true
+#rabbitmq::cluster_nodes:
+#  - oss1.pcitc.com.yaml
+#  - oss2.pcitc.com.yaml
+#  - oss.pcitc.com.yaml
+#rabbitmq::cluster_node_type: 'ram'
+#rabbitmq::erlang_cookie: 'A_SECRET_COOKIE_STRING'
+#rabbitmq::wipe_db_on_cookie_change: true
