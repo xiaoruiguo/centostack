@@ -14,11 +14,12 @@ ntp::restrict:
 classes:
   - 'rabbitmq'
 
-#rabbitmq::config_cluster: true
-#rabbitmq::cluster_nodes:
-#  - oss1.pcitc.com.yaml
-#  - oss2.pcitc.com.yaml
-#  - oss.pcitc.com.yaml
-#rabbitmq::cluster_node_type: 'ram'
-#rabbitmq::erlang_cookie: 'A_SECRET_COOKIE_STRING'
-#rabbitmq::wipe_db_on_cookie_change: true
+# Rabbitmq Cluster.
+rabbitmq::config_cluster: true
+rabbitmq::cluster_nodes:
+  - oss1.pcitc.com.yaml
+  - oss2.pcitc.com.yaml
+  - oss.pcitc.com.yaml
+rabbitmq::cluster_node_type: 'ram'
+rabbitmq::erlang_cookie: 'A_SECRET_COOKIE_STRING'
+rabbitmq::wipe_db_on_cookie_change: true
