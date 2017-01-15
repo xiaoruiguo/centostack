@@ -18,9 +18,9 @@ classes:
 # Rabbitmq Cluster.
 rabbitmq::config_cluster: true
 rabbitmq::cluster_nodes:
-  - oss1.pcitc.com.yaml
-  - oss2.pcitc.com.yaml
-  - oss.pcitc.com.yaml
+  - oss.pcitc.com
+  - oss1.pcitc.com
+  - oss2.pcitc.com
 rabbitmq::cluster_node_type: 'ram'
 rabbitmq::erlang_cookie: 'A_SECRET_COOKIE_STRING'
 rabbitmq::wipe_db_on_cookie_change: true
