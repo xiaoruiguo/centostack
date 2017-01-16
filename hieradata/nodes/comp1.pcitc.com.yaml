@@ -1,7 +1,5 @@
 ---
-classes:
-  - 'ntp'
-
+# ntp configuration
 ntp::servers:
   - 'oss.pcitc.com'
   - 'oss1.pcitc.com'

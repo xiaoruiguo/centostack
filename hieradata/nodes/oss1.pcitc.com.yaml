@@ -1,12 +1,10 @@
 ---
-classes:
-  - 'ntp'
-
+# ntp configuration
 ntp::servers:
-  - 'oss.pcitc.com'
-  - 's1a.time.edu.cn'
-  - 's2a.time.edu.cn'
-  - 's3a.time.edu.cn'
+  - oss.pcitc.com iburst
+  - s1a.time.edu.cn iburst
+  - s2a.time.edu.cn iburst
+  - s3a.time.edu.cn iburst
 ntp::restrict:
   - 'default kod nomodify notrap nopeer noquery'
   - '127.0.0.1'
