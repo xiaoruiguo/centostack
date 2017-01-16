@@ -1,6 +1,5 @@
 ---
-classes:
-  - 'ntp'
+classes: 'ntp'
 
 ntp::servers:
   - 's1a.time.edu.cn'
@@ -11,8 +10,7 @@ ntp::restrict:
   - '127.0.0.1'
   - '10.238.40.0 mask 255.255.255.192 nomodify notrap' 
 
-classes:
-  - 'rabbitmq'
+classes: 'rabbitmq'
 
 #rabbitmq_plugin: 
 #  - 'rabbitmq_management'
@@ -29,5 +27,4 @@ rabbitmq::cluster_node_type: 'ram'
 rabbitmq::erlang_cookie: 'A_SECRET_COOKIE_STRING'
 rabbitmq::wipe_db_on_cookie_change: true
 
-classes:
-  - 'mysql::server'
+classes: 'mysql::server'
