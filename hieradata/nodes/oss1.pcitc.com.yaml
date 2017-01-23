@@ -17,7 +17,7 @@ classes:
 rabbitmq::config_cluster: true
 rabbitmq::cluster_nodes:
   - oss
-  - oss1
+#  - oss1
   - oss2
 rabbitmq::cluster_node_type: 'ram'
 rabbitmq::erlang_cookie: 'A_SECRET_COOKIE_STRING'
